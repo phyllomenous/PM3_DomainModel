@@ -1,36 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2023-03-21T08:57:05.261Z" agent="5.0 (Windows)" etag="Q_39KQGw_biOIpyvX8RK" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-21T09:04:39.119Z" agent="5.0 (Windows)" etag="81cyXN7BOzacsxkl_W4b" version="21.0.8" type="github">
   <diagram name="Seite-1" id="S6JMopAROMMKiacywSWn">
-    <mxGraphModel dx="1313" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1105" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DOXEsDd_RbeYN1ELh2i6-2" value="Structure" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="100" y="250" width="530" height="90" as="geometry" />
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-19" value="UI" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="20" width="540" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-20" value="Text" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-19">
+          <mxGeometry width="540" height="70" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-21" value="Domains" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="160" width="670" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-22" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-21">
+          <mxGeometry width="670" height="203" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-2" value="Structure" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-21">
+          <mxGeometry x="30" y="60" width="340" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DOXEsDd_RbeYN1ELh2i6-3" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-2">
-          <mxGeometry width="530" height="41.53846153846154" relative="1" as="geometry">
+          <mxGeometry width="340" height="32.30769230769231" relative="1" as="geometry">
             <mxPoint y="30" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DOXEsDd_RbeYN1ELh2i6-16" value="Building" style="html=1;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-2">
-          <mxGeometry x="109.36507936507937" y="50.004347826086956" width="92.53968253968254" height="19.565217391304348" as="geometry" />
+          <mxGeometry x="70.15873015873015" y="38.89227053140097" width="59.36507936507937" height="15.217391304347826" as="geometry" />
         </mxCell>
         <mxCell id="DOXEsDd_RbeYN1ELh2i6-17" value="POI/Room" style="html=1;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-2">
-          <mxGeometry x="227.14285714285714" y="50.004347826086956" width="92.53968253968254" height="19.565217391304348" as="geometry" />
+          <mxGeometry x="145.7142857142857" y="38.89227053140097" width="59.36507936507937" height="15.217391304347826" as="geometry" />
         </mxCell>
         <mxCell id="DOXEsDd_RbeYN1ELh2i6-15" value="Location" style="html=1;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-2">
-          <mxGeometry x="8.412698412698413" y="50.004347826086956" width="92.53968253968254" height="19.565217391304348" as="geometry" />
+          <mxGeometry x="5.396825396825397" y="38.89227053140097" width="59.36507936507937" height="15.217391304347826" as="geometry" />
         </mxCell>
         <mxCell id="DOXEsDd_RbeYN1ELh2i6-18" value="Orb" style="html=1;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-2">
-          <mxGeometry x="336.5079365079365" y="50.004347826086956" width="92.53968253968254" height="19.565217391304348" as="geometry" />
+          <mxGeometry x="215.87301587301587" y="38.89227053140097" width="59.36507936507937" height="15.217391304347826" as="geometry" />
         </mxCell>
-        <mxCell id="DOXEsDd_RbeYN1ELh2i6-19" value="Package" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="100" y="450" width="150" height="100" as="geometry" />
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-23" value="&lt;div&gt;Business Logic&lt;/div&gt;" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-21">
+          <mxGeometry x="410" y="60" width="240" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="DOXEsDd_RbeYN1ELh2i6-20" value="Text" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-19">
-          <mxGeometry width="150" height="70" relative="1" as="geometry">
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-24" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-23">
+          <mxGeometry width="240" height="119" relative="1" as="geometry">
             <mxPoint y="30" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-30" value="Rule- Engine" style="html=1;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-23">
+          <mxGeometry x="10" y="38.89" width="100" height="31.11" as="geometry" />
+        </mxCell>
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-31" value="Rule" style="html=1;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-23">
+          <mxGeometry x="130" y="38.89" width="80" height="31.11" as="geometry" />
+        </mxCell>
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-25" value="End User" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-21">
+          <mxGeometry x="40" y="160" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-26" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-25">
+          <mxGeometry width="280" height="81.5625" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-27" value="Person" style="html=1;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-25">
+          <mxGeometry x="14.35897435897436" y="39.375" width="78.97435897435898" height="28.125" as="geometry" />
+        </mxCell>
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-28" value="Device" style="html=1;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-25">
+          <mxGeometry x="136.4102564102564" y="39.375" width="78.97435897435898" height="28.125" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
