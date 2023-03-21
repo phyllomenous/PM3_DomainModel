@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-21T09:56:32.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="YV6zrq0gALvT1g2DTAnE" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-21T09:57:44.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="cIIaQQesjLrkG-o7F-F0" version="21.0.8" type="github">
   <diagram name="Seite-1" id="S6JMopAROMMKiacywSWn">
     <mxGraphModel dx="794" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,7 +82,7 @@
         <mxCell id="DOXEsDd_RbeYN1ELh2i6-48" value="Action" style="html=1;whiteSpace=wrap;" parent="DOXEsDd_RbeYN1ELh2i6-23" vertex="1">
           <mxGeometry x="120.86000000000001" y="70" width="97.26" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DOXEsDd_RbeYN1ELh2i6-25" value="End User" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" parent="DOXEsDd_RbeYN1ELh2i6-21" vertex="1">
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-25" value="EndUser" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" parent="DOXEsDd_RbeYN1ELh2i6-21" vertex="1">
           <mxGeometry x="40.6" y="160" width="189.4" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DOXEsDd_RbeYN1ELh2i6-26" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" parent="DOXEsDd_RbeYN1ELh2i6-25" vertex="1">
