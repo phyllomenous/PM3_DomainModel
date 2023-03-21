@@ -1,1 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2023-03-21T08:43:35.406Z" agent="5.0 (Windows)" version="21.0.8" etag="fa8i-aaMqn9mB8eJPyZO" type="github"><diagram name="Seite-1" id="S6JMopAROMMKiacywSWn">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-21T08:57:05.261Z" agent="5.0 (Windows)" etag="Q_39KQGw_biOIpyvX8RK" version="21.0.8" type="github">
+  <diagram name="Seite-1" id="S6JMopAROMMKiacywSWn">
+    <mxGraphModel dx="1313" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-2" value="Structure" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="250" width="530" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-3" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-2">
+          <mxGeometry width="530" height="41.53846153846154" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-16" value="Building" style="html=1;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-2">
+          <mxGeometry x="109.36507936507937" y="50.004347826086956" width="92.53968253968254" height="19.565217391304348" as="geometry" />
+        </mxCell>
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-17" value="POI/Room" style="html=1;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-2">
+          <mxGeometry x="227.14285714285714" y="50.004347826086956" width="92.53968253968254" height="19.565217391304348" as="geometry" />
+        </mxCell>
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-15" value="Location" style="html=1;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-2">
+          <mxGeometry x="8.412698412698413" y="50.004347826086956" width="92.53968253968254" height="19.565217391304348" as="geometry" />
+        </mxCell>
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-18" value="Orb" style="html=1;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-2">
+          <mxGeometry x="336.5079365079365" y="50.004347826086956" width="92.53968253968254" height="19.565217391304348" as="geometry" />
+        </mxCell>
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-19" value="Package" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="450" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DOXEsDd_RbeYN1ELh2i6-20" value="Text" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="DOXEsDd_RbeYN1ELh2i6-19">
+          <mxGeometry width="150" height="70" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
