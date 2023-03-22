@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T18:22:00.751Z" agent="5.0 (Windows)" etag="-4RBUcU9Zo8091hl9Fn5" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-22T18:22:56.595Z" agent="5.0 (Windows)" etag="ASzCns20Od2SUfRngmg6" version="21.0.10" type="github">
   <diagram name="Seite-1" id="CF3dzcLzpI-n0LXJCUQS">
     <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,8 +49,8 @@
         <mxCell id="EemBm16yauwJeNKE_mwV-23" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
           <mxGeometry x="530" y="300" width="145" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="EemBm16yauwJeNKE_mwV-24" value="&lt;div&gt;Supporting actor&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;Email-System&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="EemBm16yauwJeNKE_mwV-23" vertex="1">
-          <mxGeometry x="10" y="5" width="120" height="60" as="geometry" />
+        <mxCell id="EemBm16yauwJeNKE_mwV-24" value="&lt;div&gt;Supporting actor&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;Notification-System&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="EemBm16yauwJeNKE_mwV-23" vertex="1">
+          <mxGeometry x="-5" y="5" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
