@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-08T11:21:33.364Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="_0waGd4vt7BtgYOM4xLf" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-08T11:23:06.209Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="PXUoUUXjre-hh081fniK" version="21.1.5" type="github">
   <diagram name="Seite-1" id="2M5eXFFC1SxqYQrEGzhu">
     <mxGraphModel dx="1050" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,6 +33,12 @@
         </mxCell>
         <mxCell id="eeAkKd5FmDa_MluTbbMC-22" value="managementUser" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eeAkKd5FmDa_MluTbbMC-24" value="selectRoom" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="240" as="sourcePoint" />
+            <mxPoint x="220" y="240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
