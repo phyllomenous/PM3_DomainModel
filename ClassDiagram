@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-18T20:20:51.531Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="_uytV4DVoT5XZHBKr4nZ" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-18T20:26:14.465Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="m8cPhDw9p-UAr2KuUTlR" version="21.1.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3913" dy="1829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4041" dy="1968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -605,14 +605,6 @@
         <mxCell id="JFNDp8_XG-NEQbzks01--45" value="OrganizationService" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="JFNDp8_XG-NEQbzks01--28">
           <mxGeometry x="23.340000000000146" y="279.99848116151793" width="226.66" height="40.99584603555113" as="geometry" />
         </mxCell>
-        <mxCell id="JFNDp8_XG-NEQbzks01--30" value="wifi" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="JFNDp8_XG-NEQbzks01--21">
-          <mxGeometry x="450" y="220" width="353.34" height="208.34" as="geometry" />
-        </mxCell>
-        <mxCell id="JFNDp8_XG-NEQbzks01--31" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="JFNDp8_XG-NEQbzks01--30">
-          <mxGeometry width="353.34000000000003" height="145.83800000000002" relative="1" as="geometry">
-            <mxPoint y="30" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="JFNDp8_XG-NEQbzks01--39" value="&lt;i&gt;IService&amp;lt;T&amp;gt;&lt;/i&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="JFNDp8_XG-NEQbzks01--21">
           <mxGeometry x="340" y="80" width="226.66" height="76" as="geometry" />
         </mxCell>
@@ -640,6 +632,34 @@
               <mxPoint x="390" y="460" />
               <mxPoint x="437" y="460" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JFNDp8_XG-NEQbzks01--30" value="wifi" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="JFNDp8_XG-NEQbzks01--21">
+          <mxGeometry x="460" y="190" width="340" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="JFNDp8_XG-NEQbzks01--31" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="JFNDp8_XG-NEQbzks01--30">
+          <mxGeometry width="279.0513386539876" height="378" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JFNDp8_XG-NEQbzks01--48" value="BeaconFrameIngestService" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="JFNDp8_XG-NEQbzks01--30">
+          <mxGeometry x="9.62" y="50" width="218.1" height="40" as="geometry">
+            <mxRectangle x="23.34" y="45.10236" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JFNDp8_XG-NEQbzks01--52" value="ClientFrameService" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="JFNDp8_XG-NEQbzks01--30">
+          <mxGeometry x="9.62" y="229.32" width="218.1" height="40.68" as="geometry">
+            <mxRectangle x="23.34" y="45.10236" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JFNDp8_XG-NEQbzks01--51" value="ClientFrameIngestService" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="JFNDp8_XG-NEQbzks01--30">
+          <mxGeometry x="9.62" y="170" width="218.1" height="40" as="geometry">
+            <mxRectangle x="23.34" y="45.10236" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JFNDp8_XG-NEQbzks01--50" value="BeaconFrameService" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="JFNDp8_XG-NEQbzks01--30">
+          <mxGeometry x="9.62" y="110" width="218.1" height="40" as="geometry">
+            <mxRectangle x="23.34" y="45.10236" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JFNDp8_XG-NEQbzks01--43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;endArrow=block;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JFNDp8_XG-NEQbzks01--36">
