@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-13T21:28:14.259Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="dG1mOPyK0C-cmZMMZLIH" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-13T21:29:15.408Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="VZnFRSujwGnd1mHt5Xrj" version="21.3.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="9937" dy="4530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7764" dy="3382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1196,6 +1196,9 @@
         </mxCell>
         <mxCell id="hb8zp1G66MYR98sNPSMB-506" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.72;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;exitX=0.501;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AfYDf39B0m9BSEOkdbdF-0" target="JFNDp8_XG-NEQbzks01--21">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hb8zp1G66MYR98sNPSMB-507" value="Classes Methods and fields not directly relevant to understand the fundamental concept of the non-trivial domain Logic have been omitted" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-4280" y="4186" width="320" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
