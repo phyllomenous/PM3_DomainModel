@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-05-13T17:58:21.759Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="dLaGb3ln-9JFuCaDXbRs" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-13T18:00:44.728Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="sTNHueleexF_WAHEx7ng" version="21.3.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="6937" dy="3443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6219" dy="3041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="AfYDf39B0m9BSEOkdbdF-281" value="ch.zhaw.psychicCore" style="shape=folder;fontStyle=1;tabWidth=133;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-4590" y="450" width="2990" height="1840" as="geometry" />
+          <mxGeometry x="-4590" y="440" width="2990" height="1840" as="geometry" />
         </mxCell>
         <mxCell id="lPcCZPkAOuMgYKHdjKl2-91" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;container=0;" parent="AfYDf39B0m9BSEOkdbdF-281" vertex="1">
           <mxGeometry x="1082" y="725.7085646312452" width="710" height="866.923076923077" as="geometry">
@@ -241,7 +241,7 @@
           <mxGeometry y="26" width="150" height="38.92307692307692" as="geometry" />
         </mxCell>
         <mxCell id="lPcCZPkAOuMgYKHdjKl2-18" value="Room" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;container=0;" parent="AfYDf39B0m9BSEOkdbdF-281" vertex="1">
-          <mxGeometry x="1341.34" y="990.21" width="230.66" height="137.1" as="geometry" />
+          <mxGeometry x="1343.34" y="980" width="230.66" height="137.1" as="geometry" />
         </mxCell>
         <mxCell id="lPcCZPkAOuMgYKHdjKl2-19" value="+&amp;nbsp;id: UUID {readOnly}&lt;br&gt;+&amp;nbsp;floorId: UUID {readOnly}&lt;br&gt;+&amp;nbsp;roomNumber {readOnly}&lt;br&gt;+&amp;nbsp;capacity: Int {readOnly}&lt;br&gt;+ equipmentList: List&amp;lt;EquipmentItem&amp;gt;&lt;br&gt;+ wheelchairAccess: Bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;container=0;" parent="lPcCZPkAOuMgYKHdjKl2-18" vertex="1">
           <mxGeometry y="26" width="230.66" height="111.1" as="geometry" />
