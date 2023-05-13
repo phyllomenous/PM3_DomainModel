@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-13T16:56:37.492Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="8-g0RjODe8y9zX9-ougJ" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-13T16:58:35.393Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="sxqmszb8SJ7TPbEKfpMp" version="21.3.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="7402" dy="3703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,7 +82,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bHpejM-_ZtZiDxcdXfHe-2" value="RoomPresenceCalculationCompositeRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="bHpejM-_ZtZiDxcdXfHe-0" vertex="1">
-          <mxGeometry x="20" y="50" width="360" height="120" as="geometry" />
+          <mxGeometry x="480" y="40" width="360" height="120" as="geometry" />
         </mxCell>
         <mxCell id="bHpejM-_ZtZiDxcdXfHe-3" value="- database: Database {readOnly}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bHpejM-_ZtZiDxcdXfHe-2" vertex="1">
           <mxGeometry y="26" width="360" height="26" as="geometry" />
@@ -93,8 +93,17 @@
         <mxCell id="bHpejM-_ZtZiDxcdXfHe-5" value="+&amp;nbsp;create(RoomPresencecalculationComposite): UUID&lt;br&gt;+&amp;nbsp;getAllAfterSorted(afterWhen: Instant): BeaconFrame" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bHpejM-_ZtZiDxcdXfHe-2" vertex="1">
           <mxGeometry y="60" width="360" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="hb8zp1G66MYR98sNPSMB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="bHpejM-_ZtZiDxcdXfHe-0" source="bHpejM-_ZtZiDxcdXfHe-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-190" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-100" y="110" />
+              <mxPoint x="-100" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bHpejM-_ZtZiDxcdXfHe-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;RoomPresenceCalculationComposite&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;+&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;id: UUID {readOnly}&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;room: RoomEntity&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;presence: Int&lt;/span&gt;&lt;br&gt;+&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;timestamp: Instant&lt;/span&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;+&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;toRoomPresenceCalculationComposite(): RoomPresenceCalculationComposite&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="bHpejM-_ZtZiDxcdXfHe-0" vertex="1">
-          <mxGeometry x="400" y="50" width="440" height="140" as="geometry" />
+          <mxGeometry x="25" y="40" width="440" height="140" as="geometry" />
         </mxCell>
         <mxCell id="hb8zp1G66MYR98sNPSMB-0" value="RoomPresenceCalculationComposite : Table&amp;lt;RoomPresenceCalculationCompositeEntity&amp;gt;(&quot;room_presence_calculation_composite&quot;)" style="html=1;whiteSpace=wrap;" vertex="1" parent="bHpejM-_ZtZiDxcdXfHe-0">
           <mxGeometry x="25" y="190" width="360" height="50" as="geometry" />
@@ -986,6 +995,14 @@
         </mxCell>
         <mxCell id="lPcCZPkAOuMgYKHdjKl2-23" value="+&amp;nbsp;id: UUID {readOnly}&lt;br&gt;+&amp;nbsp;name: String {readOnly}&lt;br&gt;+&amp;nbsp;age: Int {readOnly}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;container=0;" parent="AfYDf39B0m9BSEOkdbdF-280" vertex="1">
           <mxGeometry x="497.00153846153853" y="281" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="hb8zp1G66MYR98sNPSMB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=180;entryDy=79.5;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hb8zp1G66MYR98sNPSMB-5" target="lPcCZPkAOuMgYKHdjKl2-155">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-4620" y="1935" />
+              <mxPoint x="-4620" y="1579" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
